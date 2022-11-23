@@ -1,12 +1,7 @@
-users ||--o{ articles: ""
-
-users {
-  string name
-  string email
-  integer age
-}
-
-articles {
-  string title
-  text text
-}
+```mermaid
+erDiagram
+    EVENTS }|--|{ CONTES : plays
+    CONTES ||--o{ ITEMS : has
+    EVENTS ||--o{ DATES : bookings
+    EVENTS ||--o{ STAFFS : works
+```
