@@ -1,3 +1,5 @@
+
+```mermaid
 %%{init:{'theme':'default'}}%%
 erDiagram
 
@@ -42,3 +44,4 @@ orders {
   integer user_id FK "ユーザーID"
   integer item_id FK "アイテムID"
 }
+```
