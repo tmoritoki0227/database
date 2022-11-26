@@ -1,5 +1,6 @@
+```mermaid
 %%{init:{'theme':'default'}}%%
-erDiagram```
+erDiagram
 
 events ||--o{ documents: "1つのイベントは0以上の資料を持つ"
 events ||--o{ comments: "1つのイベントは0以上のコメントを持つ"
